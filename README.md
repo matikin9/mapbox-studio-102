@@ -23,3 +23,6 @@ This repository contains the webpage file that attendees will use to build their
   * Mapbox URL.
   * Attribute names(?)
 4. Visit the website URL and see your custom map!
+
+## History
+Developed as a MaptimeLA workshop for 4/19/17.

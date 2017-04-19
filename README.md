@@ -27,7 +27,8 @@ Text Editor - A program for writing code. Guess what? You get to learn a little 
   * [Sublime](https://www.sublimetext.com/) for Mac and Windows
   * [http://brackets.io/](http://brackets.io/) for Mac and Windows
 
-### Let's style our own map!
+### Mapbox Studio
+*Let's style our own map!*
 1. Let's fire up Mapbox Studio on our web browsers. Let's check out what kind of features this tool offers with the [Mapbox Manual](https://www.mapbox.com/help/studio-manual/)
 2. Did you know mapbox studio uses data from [OpenStreetMap](http://www.openstreetmap.org/) also known as OSM? OSM is pretty much a wikipedia of maps, all made by people and collaborators like you mapping communitiesa and the world.
    1. New to OSM?, check out the beginner's guide from [learnOSM](http://learnosm.org/en/). Soon you will be mapping your neighborhood, adding buildings, points of interest, etc.
@@ -36,15 +37,18 @@ Text Editor - A program for writing code. Guess what? You get to learn a little 
    1. In this repo we have a geojson file (What's [geojson](http://geojson.org/)) of the buildings in Downtown LA. We can use this to upload to Mapbox. [LINK to file](https://github.com/matikin9/mapbox-studio-102/blob/master/data/downtownLA_OSM.geojson)
 5. What if I want to create my own dataset and make my own points, lines or polygons?...oh my
 
-### Get the Code!
-0. Create a GitHub account if you don't have one already.  Visit the [mapbox-studio-102](https://github.com/matikin9/mapbox-studio-102/) repository.
-1. Fork the repository.
-2. Go to your repository's settings and turn on GitHub Pages.  Copy the URL and enter it on the repository main page.
-3. Click on index.html, then click the edit (pen) icon.
+### Data & Webmaps
+*Get the Code!*
+1. Fork the [mapbox-studio-102](https://github.com/matikin9/mapbox-studio-102/) repository.
+2. Turn on GitHub Pages.
+   1. Go to Settings, scroll to the GitHub Pages section and select "master branch" for the Source.
+   2. GitHub will give you a link which you can use to view your site.  Save it to your repository's description so you can see your code update immediately!
+3. From the repository file list, click on "index.html", then click the edit (pen) icon in the upper right to edit the file.
+
 4. Replace the tilelayer URL with YOUR custom styles - go to Mapbox Studio, select your style, and go to Share, Develop and Use.
 5. Under Develop with this style, select Leaflet and copy/paste the displayed URL.
 6. Commit your changes.
 7. Visit the GitHub pages URL and see your custom map!  Styles may take several minutes to update with your dataset.
 
 ## History
-Developed as a MaptimeLA workshop for 4/19/17.
+Developed for a MaptimeLA workshop held on 4/19/17 in DTLA.

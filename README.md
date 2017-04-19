@@ -44,8 +44,10 @@ Go to the Datasets tab and upload your geo data.
 ### Data & Webmaps
 *Get the Code!*
 1. Fork the [mapbox-studio-102](https://github.com/matikin9/mapbox-studio-102/) repository.
-2. Go to your repository's settings and turn on GitHub Pages.  Copy the URL and enter it on the repository main page.
-3. Click on index.html, then click the edit (pen) icon.
+2. Turn on GitHub Pages.
+   1. Go to Settings, scroll to the GitHub Pages section and select "master branch" for the Source.
+   2. GitHub will give you a link which you can use to view your site.  Save it to your repository's description so you can see your code update immediately!
+3. From the repository file list, click on "index.html", then click the edit (pen) icon in the upper right to edit the file.
 4. Replace the tilelayer URL with YOUR custom styles - go to Mapbox Studio, select your style, and go to Share, Develop and Use.
 5. Under Develop with this style, select Leaflet and copy/paste the displayed URL.
 6. Commit your changes.

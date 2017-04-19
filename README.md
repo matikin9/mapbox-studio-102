@@ -18,9 +18,17 @@ This repository contains the webpage file that attendees will use to build their
 * data/data-file.geojson - data file
 
 ## Instructions
+### Preparation
+This workshop uses the following programs and may require free account signups.
+ * [Mapbox Studio](https://www.mapbox.com/studio/) - An Application to build and design a map by using data from OpenStreetMap or add some of your own.
+ * [Github](https://github.com/) - An online repository for digital projects with code and data. Our maps will be hosted through this website so you can leave with a web map to show your friends!
 
-### Style Your Map!
-1. Create an account at Mapbox and go to the [Mapbox Studio Editor](https://www.mapbox.com/studio/).
+Text Editor - A program for writing code. Guess what? You get to learn a little coding on how to make your map even better, like adding popups or search by address! There are many editors, here are the most popular.
+  * [Sublime](https://www.sublimetext.com/) for Mac and Windows
+  * [http://brackets.io/](http://brackets.io/) for Mac and Windows
+
+### Let's style our own map!
+1. Let's fire up Mapbox Studio on our web browsers. If you are doing this from home, Mapbox has a terrific step by step
 2. Go to the Datasets tab and upload your geo data.
 3. Select your dataset and Export to a new tileset.
 4. Go to the Tilesets tab, select your tileset and add to a new style.

@@ -35,7 +35,7 @@ Text Editor - A program for writing code. Guess what? You get to learn a little 
 3. Let's create a custom style! [Styling Steps](https://www.mapbox.com/help/create-a-custom-style/)
 4. What if I have data I want to add? [Upload data to Mapbox](https://www.mapbox.com/help/uploads/)
    1. In this repo we have a geojson file (What's [geojson](http://geojson.org/)) of the buildings in Downtown LA. We can use this to upload to Mapbox. [LINK to file](https://github.com/matikin9/mapbox-studio-102/blob/master/data/downtownLA_OSM.geojson)
-5. What if I want to create my own dataset and make my own points, lines or polygons?...oh my
+5. What if I want to create my own dataset and make my own points, lines or polygons?...oh my. | [Create a dataset](https://www.mapbox.com/help/add-points-pt-1/#create-a-dataset)
 
 ### Data & Webmaps
 *Get the Code!*

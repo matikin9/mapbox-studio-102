@@ -22,13 +22,15 @@ Time | Agenda |
 
 ## Instructions
 ### Preparation
-This workshop uses the following programs and requires free account signups.
- * [Mapbox Studio](https://www.mapbox.com/studio/) - An Application to build and design a map by using data from OpenStreetMap or add some of your own.
- * [Github](https://github.com/) - An online repository for digital projects with code and data. Our maps will be hosted through this website so you can leave with a web map to show your friends!
+1. Fork the [mapbox-studio-102](https://github.com/matikin9/mapbox-studio-102/) repository. You can also download the repo to your computer, by clicking the bright green button labeled "Clone or Download"
 
-Text Editor - A program for writing code. Guess what? You get to learn a little coding on how to make your map even better, like adding popups or search by address! There are many editors, here are the most popular.
-  * [Sublime](https://www.sublimetext.com/) for Mac and Windows
-  * [http://brackets.io/](http://brackets.io/) for Mac and Windows
+2. This workshop uses the following programs and requires free account signups.
+   * [Mapbox Studio](https://www.mapbox.com/studio/) - An Application to build and design a map by using data from OpenStreetMap or add some of your own.
+   * [Github](https://github.com/) - An online repository for digital projects with code and data. Our maps will be hosted through this website so you can leave with a web map to show your friends!
+
+3. Text Editor - A program for writing code. Guess what? You get to learn a little coding on how to make your map even better, like adding popups or search by address! There are many editors, here are the most popular.
+   * [Sublime](https://www.sublimetext.com/) for Mac and Windows
+   * [http://brackets.io/](http://brackets.io/) for Mac and Windows
 
 ### Mapbox Studio
 *Let's style our own map!*

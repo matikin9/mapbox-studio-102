@@ -54,4 +54,4 @@ Go to the Datasets tab and upload your geo data.
 7. Visit the GitHub pages URL and see your custom map!  Styles may take several minutes to update with your dataset.
 
 ## History
-Developed as a MaptimeLA workshop for 4/19/17.
+Developed for a MaptimeLA workshop held on 4/19/17 in DTLA.

@@ -8,14 +8,17 @@ Style a map, add data to it, and then display it on a webpage and make it intera
 Time | Agenda |
 ------ | ----- |
 6:30-7pm | <ul><li>Wait for people arrive.</li><li>Snack on pizza.</li></ul> |
-7-8pm | <ul><li>Intro to Mapbox</li><li>Intro to OSM</li><li>Play with styling</li></ul> |
-8-9pm | <ul><li>Load data into Mapbox</li><li>Intro to GitHub</li><li>Fork the repo and build a custom map</li><li>Advanced - add 3D building rendering</li></ul> |
-
-## Repository Files
-This repository contains the webpage file that attendees will use to build their own map.
-
-* index.html - webpage file
-* data/data-file.geojson - data file
+7-8pm | **Mapbox Studio**<br><ul><li>Intro to Mapbox</li><li>Intro to OSM</li><li>Play with styling</li></ul> |
+8-9pm | **Data & Webmaps**<br><ul><li>Load data into Mapbox</li><li>Intro to GitHub</li><li>Fork the repo and build a custom map</li><li>Advanced - add 3D building rendering</li></ul> |
+ 
+ ## Repository Files
+ This repository contains the webpage file that attendees will use to build their own map.
+ 
+-File | Description |
+------|-------------|
+-index.html | A basic webmap that you can use as a template for your own Mapbox Studio-styled map. |
+-index-adv.html | An advanced webmap that contains interactive popups generated from the dataset added to your Mapbox Studio-styled map. |
+-data/data-file.geojson | The raw .geojson data file we're using for the workshop |
 
 ## Instructions
 ### Preparation
@@ -35,7 +38,7 @@ Text Editor - A program for writing code. Guess what? You get to learn a little 
 3. Let's create a custom style! [Styling Steps](https://www.mapbox.com/help/create-a-custom-style/)
 4. What if I have data I want to add? [Upload data to Mapbox](https://www.mapbox.com/help/uploads/)
    1. In this repo we have a geojson file (What's [geojson](http://geojson.org/)) of the buildings in Downtown LA. We can use this to upload to Mapbox. [LINK to file](https://github.com/matikin9/mapbox-studio-102/blob/master/data/downtownLA_OSM.geojson)
-5. What if I want to create my own dataset and make my own points, lines or polygons?...oh my
+5. What if I want to create my own dataset and make my own points, lines or polygons?...oh my. | [Create a dataset](https://www.mapbox.com/help/add-points-pt-1/#create-a-dataset)
 
 ### Data & Webmaps
 *Get the Code!*

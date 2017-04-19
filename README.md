@@ -14,8 +14,11 @@ Time | Agenda |
 ## Repository Files
 This repository contains the webpage file that attendees will use to build their own map.
 
-* index.html - webpage file
-* data/data-file.geojson - data file
+File | Description |
+-----|-------------|
+index.html | A basic webmap that you can use as a template for your own Mapbox Studio-styled map. |
+index-adv.html | An advanced webmap that contains interactive popups generated from the dataset added to your Mapbox Studio-styled map. |
+data/data-file.geojson | The raw .geojson data file we're using for the workshop |
 
 ## Instructions
 ### Preparation

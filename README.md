@@ -19,7 +19,7 @@ This repository contains the webpage file that attendees will use to build their
 
 ## Instructions
 ### Preparation
-This workshop uses the following programs and may require free account signups.
+This workshop uses the following programs and requires free account signups.
  * [Mapbox Studio](https://www.mapbox.com/studio/) - An Application to build and design a map by using data from OpenStreetMap or add some of your own.
  * [Github](https://github.com/) - An online repository for digital projects with code and data. Our maps will be hosted through this website so you can leave with a web map to show your friends!
 
@@ -28,8 +28,11 @@ Text Editor - A program for writing code. Guess what? You get to learn a little 
   * [http://brackets.io/](http://brackets.io/) for Mac and Windows
 
 ### Let's style our own map!
-1. Let's fire up Mapbox Studio on our web browsers. If you are doing this from home, Mapbox has a terrific step by step
-2. Go to the Datasets tab and upload your geo data.
+1. Let's fire up Mapbox Studio on our web browsers. 
+   1. If you are doing this from home, Mapbox has a [terrific manual](https://www.mapbox.com/help/studio-manual/) to follow and understand the basics.
+2. Much of the data already provided on mapbox studio uses data from [OpenStreetMap](http://www.openstreetmap.org/) also known as OSM. OSM is pretty much a wikipedia of maps, all made by people and collaborators like you mapping communitiesa and the world.
+   1. If you're unfamiliar with OSM, there's a beginner's guide from [learnOSM](http://learnosm.org/en/) which will get you started and soon you will be mapping your neighborhood, adding buildings, points of interest, etc.
+Go to the Datasets tab and upload your geo data.
 3. Select your dataset and Export to a new tileset.
 4. Go to the Tilesets tab, select your tileset and add to a new style.
 5. Go to the Styles tab and edit your map styles!

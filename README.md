@@ -8,17 +8,14 @@ Style a map, add data to it, and then display it on a webpage and make it intera
 Time | Agenda |
 ------ | ----- |
 6:30-7pm | <ul><li>Wait for people arrive.</li><li>Snack on pizza.</li></ul> |
-7-8pm | **Mapbox Studio**<br><ul><li>Intro to Mapbox</li><li>Intro to OSM</li><li>Play with styling</li></ul> |
-8-9pm | **Data & Webmaps**<br><ul><li>Load data into Mapbox</li><li>Intro to GitHub</li><li>Fork the repo and build a custom map</li><li>Advanced - add 3D building rendering</li></ul> |
+7-8pm | <ul><li>Intro to Mapbox</li><li>Intro to OSM</li><li>Play with styling</li></ul> |
+8-9pm | <ul><li>Load data into Mapbox</li><li>Intro to GitHub</li><li>Fork the repo and build a custom map</li><li>Advanced - add 3D building rendering</li></ul> |
 
 ## Repository Files
 This repository contains the webpage file that attendees will use to build their own map.
 
-File | Description |
------|-------------|
-index.html | A basic webmap that you can use as a template for your own Mapbox Studio-styled map. |
-index-adv.html | An advanced webmap that contains interactive popups generated from the dataset added to your Mapbox Studio-styled map. |
-data/data-file.geojson | The raw .geojson data file we're using for the workshop |
+* index.html - webpage file
+* data/data-file.geojson - data file
 
 ## Instructions
 ### Preparation
@@ -30,20 +27,18 @@ Text Editor - A program for writing code. Guess what? You get to learn a little 
   * [Sublime](https://www.sublimetext.com/) for Mac and Windows
   * [http://brackets.io/](http://brackets.io/) for Mac and Windows
 
-### Mapbox Studio
-*Let's style our own map!*
-1. Let's fire up Mapbox Studio on our web browsers. 
-   1. If you are doing this from home, Mapbox has a [terrific manual](https://www.mapbox.com/help/studio-manual/) to follow and understand the basics.
-2. Much of the data already provided on mapbox studio uses data from [OpenStreetMap](http://www.openstreetmap.org/) also known as OSM. OSM is pretty much a wikipedia of maps, all made by people and collaborators like you mapping communitiesa and the world.
-   1. If you're unfamiliar with OSM, there's a beginner's guide from [learnOSM](http://learnosm.org/en/) which will get you started and soon you will be mapping your neighborhood, adding buildings, points of interest, etc.
-Go to the Datasets tab and upload your geo data.
-3. Select your dataset and Export to a new tileset.
-4. Go to the Tilesets tab, select your tileset and add to a new style.
-5. Go to the Styles tab and edit your map styles!
+### Let's style our own map!
+1. Let's fire up Mapbox Studio on our web browsers. Let's check out what kind of features this tool offers with the [Mapbox Manual](https://www.mapbox.com/help/studio-manual/)
+2. Did you know mapbox studio uses data from [OpenStreetMap](http://www.openstreetmap.org/) also known as OSM? OSM is pretty much a wikipedia of maps, all made by people and collaborators like you mapping communitiesa and the world.
+   1. New to OSM?, check out the beginner's guide from [learnOSM](http://learnosm.org/en/). Soon you will be mapping your neighborhood, adding buildings, points of interest, etc.
+3. Let's create a custom style! [Styling Steps](https://www.mapbox.com/help/create-a-custom-style/)
+4. What if I have data I want to add? [Upload data to Mapbox](https://www.mapbox.com/help/uploads/)
+   1. In this repo we have a geojson file (What's [geojson](http://geojson.org/)) of the buildings in Downtown LA. We can use this to upload to Mapbox. [LINK to file](https://github.com/matikin9/mapbox-studio-102/blob/master/data/downtownLA_OSM.geojson)
+5. What if I want to create my own dataset and make my own points, lines or polygons?...oh my
 
-### Data & Webmaps
-*Get the Code!*
-1. Fork the [mapbox-studio-102](https://github.com/matikin9/mapbox-studio-102/) repository.
+### Get the Code!
+0. Create a GitHub account if you don't have one already.  Visit the [mapbox-studio-102](https://github.com/matikin9/mapbox-studio-102/) repository.
+1. Fork the repository.
 2. Go to your repository's settings and turn on GitHub Pages.  Copy the URL and enter it on the repository main page.
 3. Click on index.html, then click the edit (pen) icon.
 4. Replace the tilelayer URL with YOUR custom styles - go to Mapbox Studio, select your style, and go to Share, Develop and Use.

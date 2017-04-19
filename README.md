@@ -85,4 +85,8 @@ Time | Agenda |
 
 ## History
 
-Developed for a MaptimeLA workshop held on 4/19/17 in DTLA.
+Developed by [Omar Ureta](https://github.com/cityhubla) and [Nina Kin](https://github.com/matikin9) for a MaptimeLA workshop held on 4/19/17 in DTLA.
+
+## How to Use
+
+Anyone is free to fork this repo and hold their own local workshops on Mapbox Studio - if you do, you will want to update some of the links to point to your own repository!  We'd love to get feedback about your experience using the workshop, and we're always open to suggestions for changes (or bug fixes, haha).  You can contact us by opening an Issue in this repository, or by reaching out to us on Twitter.

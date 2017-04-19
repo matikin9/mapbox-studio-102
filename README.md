@@ -18,6 +18,12 @@ This repository contains the webpage file that attendees will use to build their
 * data/data-file.geojson - data file
 
 ## Instructions
+
+### Style Your Map!
+1. Create an account at Mapbox and go to the [Mapbox Studio Editor](https://www.mapbox.com/studio/).
+2. Go to the Datasets tab and upload your geo data.
+
+### Get the Code!
 1. Fork the repository.
 2. Go to the repository Settings and turn on GitHub Pages.  Copy the URL and enter it on the repository main page.
 3. Navigate to the webpage file^ and replace the following values with your own custom values:

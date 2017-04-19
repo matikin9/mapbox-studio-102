@@ -1,7 +1,41 @@
 <!doctype html>
-  <html>
+<html>
   <head>
+    <title>MaptimeLA - Mapbox Studio 102!</title>
+    
+    <!-- Reference leaflet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
+    
+    <!-- Normalize the page styles and make the map area fill the screen. -->
+    <style>
+      html, body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      
+      #myMapDiv {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
   </head>
   <body>
+    <div id="myMapDiv"></div>
+    <script>
+      // initialize the map by centering it on los angeles and setting the zoom level to 13.
+      var mapboxStudioMap = L.map('myMapDiv').setView([34.052030, -118.241172], 13);
+      
+      // Load a tile layer.
+      // This Mapbox tileset was created with the LA County's bikeway data:
+      // https://data.lacounty.gov/Shape-Files/LA-County-Bikeways/brdh-e23g
+    	L.tileLayer('https://api.mapbox.com/styles/v1/matikin9/cj1omitxc001y2ro9v9g19hsi/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWF0aWtpbjkiLCJhIjoiYjMyMjBjZTE4NWUxMDkxOWZjZjFjZWEzZTcxNDUxOTkifQ._ldFl3e17jCs7aWm6zMZ3Q', {
+    		attribution: '<a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    		minZoom: 1,
+    		maxZoom: 16
+    	}).addTo(mapboxStudioMap);
+    </script>
   </body>
 </html>
